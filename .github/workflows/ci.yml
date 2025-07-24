@@ -84,6 +84,8 @@ jobs:
 
          kubectl get pods -n kube-system -l app.kubernetes.io/name=aws-load-balancer-controller
          kubectl get endpoints -n kube-system aws-load-balancer-webhook-service
+         kubectl get ingress flask-ingress -n default
+
 
 
 
